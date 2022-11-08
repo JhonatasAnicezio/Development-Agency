@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { listBanner } from '../../services';
+import './Banner.css';
 
 function Banner() {
   return (
