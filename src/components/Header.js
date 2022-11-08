@@ -1,5 +1,6 @@
 import React from 'react';
 import hdcagency from '../img/hdcagency_logo.svg';
+import './Header.css';
 
 function Header() {
   return(
