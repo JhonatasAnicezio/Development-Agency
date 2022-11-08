@@ -2,7 +2,22 @@ import banner1 from './img/banner1.png';
 import banner2 from './img/banner2.png';
 import banner3 from './img/banner3.png';
 
-export default listBanner = [
+export const indicators = [
+  {
+    position: 1,
+    class: 'active',
+  },
+  {
+    position: 2,
+    class: 'classrandom',
+  },
+  {
+    position: 3,
+    class: 'classrandom',
+  }
+];
+
+export const listBanner = [
   {
     title: 'Quer criar um e-commerce?',
     description: 'Conte conosco, temos mais de 30 lojas no portifólio.',
@@ -24,4 +39,4 @@ export default listBanner = [
     alt: 'Manuntenção em Software',
     link: 'Etre em contato',
   },
-]
+];
