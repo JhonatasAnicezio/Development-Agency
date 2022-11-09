@@ -12,7 +12,7 @@ function AboutArea() {
       <div id='about-area'>
         <div className='container'>
           <div className='row'>
-            <TitleH2 />
+            <TitleH2 title='Sobre a hDC agency'/>
             <div className='col-md-6'>
               <img className='img-fluid' src={ agenciaJpg }/>
             </div>
