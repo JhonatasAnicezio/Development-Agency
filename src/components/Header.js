@@ -1,5 +1,6 @@
 import React from 'react';
 import hdcagency from '../img/hdcagency_logo.svg';
+import { linksHeader } from '../services';
 import './Header.css';
 
 function Header() {
@@ -21,12 +22,9 @@ function Header() {
           </button>
           <div className='collapse navbar-collapse justify-content-end' id='navbar-links'>
             <div className='navbar-nav'>
-              <a className='nav-item nav-link' id='home-menu'>Home</a>
-              <a className='nav-item nav-link' id='about-menu'>A agência</a>
-              <a className='nav-item nav-link' id='services-menu'>Serviços</a>
-              <a className='nav-item nav-link' id='team-menu'>Time</a>
-              <a className='nav-item nav-link' id='portifolio-menu'>Projetos</a>
-              <a className='nav-item nav-link' id='contact-menu'>Contato</a>
+              { linksHeader.map((link, index) =>
+                <a key={ index } className='nav-item nav-link' id={ link.id }>{ link.name }</a>
+              ) }
             </div>
           </div>
         </nav>
