@@ -25,3 +25,36 @@ export const listBanner = [
     link: 'Etre em contato',
   },
 ];
+
+export const linksHeader = [
+  {
+    href: '',
+    id: 'home-menu',
+    name: 'Home',
+  },
+  {
+    href: '',
+    id: 'about-menu',
+    name: 'A agência',
+  },
+  {
+    href: '',
+    id: 'services-menu',
+    name: 'Serviços',
+  },
+  {
+    href: '',
+    id: 'team-menu',
+    name: 'Time',
+  },
+  {
+    href: '',
+    id: 'portifolio-menu',
+    name: 'Projetos',
+  },
+  {
+    href: '',
+    id: 'contact-menu',
+    name: 'Contato',
+  },
+];
