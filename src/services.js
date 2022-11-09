@@ -58,3 +58,11 @@ export const linksHeader = [
     name: 'Contato',
   },
 ];
+
+export const diferenciais = [
+  'Utilização de Machine Learning',
+  'Layout responsivo para todos os dispositivos',
+  'Integração com diversos sistemas no mercado',
+  'Sistema de pagamento próprio',
+  'Desenvolvimento com metodologia ágil',
+];
