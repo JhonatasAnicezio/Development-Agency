@@ -4,6 +4,7 @@ import React from 'react';
 import agenciaJpg from '../img/agencia.jpg';
 import { diferenciais } from '../services';
 import './AboutArea.css';
+import TitleH2 from './TitleH2';
 
 function AboutArea() {
   return (
@@ -11,9 +12,7 @@ function AboutArea() {
       <div id='about-area'>
         <div className='container'>
           <div className='row'>
-            <div className='col-12'>
-              <h3 className='main-title'>Sobre a hDC agency</h3>
-            </div>
+            <TitleH2 />
             <div className='col-md-6'>
               <img className='img-fluid' src={ agenciaJpg }/>
             </div>
