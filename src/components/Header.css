@@ -11,17 +11,27 @@ header, .navbar {
   width: 75px;
 }
 
-.navbar-brand {
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-brand a {
+  margin-left: 20px;
+  text-decoration: none;
   padding: 0;
   color: #FFF;
 }
 
-.navbar-brand:hover {
+.navbar-brand a:hover {
   color: #FFF;
 }
 
 #navbar-links a {
   color: #FFF;
+}
+
+.navbar-nav {
+  margin-right: 20px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
