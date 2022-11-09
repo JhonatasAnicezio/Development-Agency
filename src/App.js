@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutArea from './components/AboutArea';
+import About from './components/About';
 import Banner from './components/Banner';
 import Header from './components/Header';
 
@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header />
       <Banner />
-      <AboutArea />
+      <About />
     </div>
   );
 }

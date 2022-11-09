@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import agenciaJpg from '../img/agencia.jpg';
 import { diferenciais } from '../services';
-import './AboutArea.css';
+import './About.css';
 import TitleH2 from './TitleH2';
 
-function AboutArea() {
+function About() {
   return (
     <div className='container-fluid'>
       <div id='about-area'>
@@ -40,4 +40,4 @@ function AboutArea() {
   );
 }
 
-export default AboutArea;
+export default About;
