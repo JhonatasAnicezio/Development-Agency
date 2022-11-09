@@ -7,10 +7,12 @@ function Header() {
     <header>
       <div className='container' id='nav-container'>
         <nav className='navbar navbar-expand-lg fixed-top'>
-          <a href='#' className='navbar-brand'>
-            <img id='logo' src={ hdcagency } alt='hDCAgency'/>
-            hDC Agency
-          </a>
+          <div className='navbar-brand'>
+            <a href='#'>
+              <img id='logo' src={ hdcagency } alt='hDCAgency'/>
+              hDC Agency
+            </a>
+          </div>
           <button
             className='navbar-toggler' type='button' data-toggle='collapse'
             data-target='#navbar-links' aria-controls='navbar-links' aria-expanded='false'
