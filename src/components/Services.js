@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { especialidades } from '../services';
 import TitleH2 from './TitleH2';
+import './Services.css';
 
 function Services() {
   return (
@@ -13,7 +14,9 @@ function Services() {
         <div className='d-flex flex-wrap'>
           { especialidades.map((especialidade, index) =>
             <div className='col-md-4 service-box' key={ index }>
-              <FontAwesomeIcon icon={ especialidade.icon } />
+              <i>
+                <FontAwesomeIcon icon={ especialidade.icon } />
+              </i>
               <h4>{ especialidade.title }</h4>
               <p>{ especialidade.description }</p>
             </div>
