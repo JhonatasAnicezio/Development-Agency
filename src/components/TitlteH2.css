@@ -1,0 +1,9 @@
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+
+  padding-bottom: 10px;
+  border-bottom: 3px solid #333;
+}
