@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './TitleH2.css';
 
 function TitleH2({ title }) {
   return (
