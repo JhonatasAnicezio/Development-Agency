@@ -1,0 +1,15 @@
+.circle-box div {
+  padding: 0px 40px;
+}
+
+.CircularProgressbar {
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+#data-area p {
+  color: #FFF;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 20px;
+}
