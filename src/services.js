@@ -104,3 +104,22 @@ export const especialidades = [
     description: 'Garantimos uptime e também rápido tempo de resposta do seu site para o seu cliente.',
   },
 ];
+
+export const arrData = [
+  {
+    circle: 'A',
+    description: 'Projetos entregues',
+  },
+  {
+    circle: 'B',
+    description: 'Clientes felizes',
+  },
+  {
+    circle: 'C',
+    description: 'Colaboradores',
+  },
+  {
+    circle: 'D',
+    description: 'Cafézinhos',
+  }
+];
