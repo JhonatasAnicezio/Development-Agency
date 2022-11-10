@@ -2,6 +2,11 @@ import banner1 from './img/banner1.png';
 import banner2 from './img/banner2.png';
 import banner3 from './img/banner3.png';
 
+import profile1 from './img/profile1.jpg';
+import profile2 from './img/profile2.jpg';
+import profile3 from './img/profile3.jpg';
+import profile4 from './img/profile4.jpg';
+
 import {
   faMobileAlt, faShoppingCart, faPaintBrush,
   faGlobe, faHandsHelping, faServer,
@@ -126,4 +131,27 @@ export const arrData = [
     description: 'Cafézinhos',
     value: 5423,
   }
+];
+
+export const time = [
+  {
+    img: profile1,
+    name: 'Jhon Doe',
+    office: 'Software Developer',
+  },
+  {
+    img: profile2,
+    name: 'Maria Mariana',
+    office: 'SEO Consultant',
+  },
+  {
+    img: profile3,
+    name: 'Paul Baker',
+    office: 'Project Manager',
+  },
+  {
+    img: profile4,
+    name: 'Karina Katarina',
+    office: 'UX/UI Designer',
+  },
 ];
