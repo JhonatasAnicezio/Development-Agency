@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import Data from './components/Data';
 import Header from './components/Header';
 import Services from './components/Services';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       <div className='container-fluid'>
         <About />
         <Services />
-        <Data />
       </div>
+      <ParallaxProvider>
+        <Data />
+      </ParallaxProvider>
     </div>
   );
 }
