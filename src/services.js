@@ -109,17 +109,21 @@ export const arrData = [
   {
     circle: 'A',
     description: 'Projetos entregues',
+    value: 60,
   },
   {
     circle: 'B',
     description: 'Clientes felizes',
+    value: 254,
   },
   {
     circle: 'C',
     description: 'Colaboradores',
+    value: 32,
   },
   {
     circle: 'D',
     description: 'Cafézinhos',
+    value: 5423,
   }
 ];
