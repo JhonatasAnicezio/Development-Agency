@@ -155,3 +155,26 @@ export const time = [
     office: 'UX/UI Designer',
   },
 ];
+
+export const filterBtn = [
+  {
+    id: 'all-btn',
+    name: 'Todos',
+    class: 'main-btn filter-btn active'
+  },
+  {
+    id: 'dev-btn',
+    name: 'Desenvolvimento',
+    class: 'main-btn filter-btn'
+  },
+  {
+    id: 'dsg-btn',
+    name: 'Design',
+    class: 'main-btn filter-btn'
+  },
+  {
+    id: 'seo-btn',
+    name: 'Seo',
+    class: 'main-btn filter-btn'
+  },
+];
