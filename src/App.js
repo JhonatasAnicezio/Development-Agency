@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Services from './components/Services';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Time from './components/Time';
+import Company from './components/Company';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       </div>
       <ParallaxProvider>
         <Data />
+        <Time />
+        <Company />
       </ParallaxProvider>
-      <Time />
     </div>
   );
 }
