@@ -7,6 +7,7 @@ import Services from './components/Services';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Time from './components/Time';
 import Company from './components/Company';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Time />
         <Company />
       </ParallaxProvider>
+      <Portfolio />
     </div>
   );
 }
