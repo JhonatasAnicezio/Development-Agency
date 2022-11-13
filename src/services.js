@@ -7,6 +7,13 @@ import profile2 from './img/profile2.jpg';
 import profile3 from './img/profile3.jpg';
 import profile4 from './img/profile4.jpg';
 
+import proj1 from './img/proj1.jpg';
+import proj2 from './img/proj2.jpg';
+import proj3 from './img/proj3.jpg';
+import proj4 from './img/proj4.jpg';
+import proj5 from './img/proj5.jpg';
+import proj6 from './img/proj6.jpg';
+
 import {
   faMobileAlt, faShoppingCart, faPaintBrush,
   faGlobe, faHandsHelping, faServer,
@@ -158,23 +165,50 @@ export const time = [
 
 export const filterBtn = [
   {
-    id: 'all-btn',
+    id: 'all',
     name: 'Todos',
-    class: 'main-btn filter-btn active'
+    clas: 'active'
   },
   {
-    id: 'dev-btn',
+    id: 'dev',
     name: 'Desenvolvimento',
-    class: 'main-btn filter-btn'
+    clas: ''
   },
   {
-    id: 'dsg-btn',
+    id: 'dsg',
     name: 'Design',
-    class: 'main-btn filter-btn'
+    clas: ''
   },
   {
-    id: 'seo-btn',
+    id: 'seo',
     name: 'Seo',
-    class: 'main-btn filter-btn'
+    clas: ''
+  },
+];
+
+export const listImg = [
+  {
+    topic: 'dev',
+    img: proj1,
+  },
+  {
+    topic: 'dsg',
+    img: proj2,
+  },
+  {
+    topic: 'seo',
+    img: proj3,
+  },
+  {
+    topic: 'dev',
+    img: proj4,
+  },
+  {
+    topic: 'dsg',
+    img: proj5,
+  },
+  {
+    topic: 'seo',
+    img: proj6,
   },
 ];
