@@ -8,6 +8,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import Time from './components/Time';
 import Company from './components/Company';
 import Portfolio from './components/Portfolio';
+import News from './components/News';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Company />
       </ParallaxProvider>
       <Portfolio />
+      <News />
     </div>
   );
 }
