@@ -51,3 +51,9 @@
   border-color: #65DAF9;
   background-color: #65DAF9;
 }
+
+@media(max-width: 768px) {
+  #apply-area .apply-box {
+    padding: 50px;
+  }
+}

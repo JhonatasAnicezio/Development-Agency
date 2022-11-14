@@ -1,3 +1,13 @@
 .card-body {
   text-align: center;
 }
+
+@media(max-width: 768px) {
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}

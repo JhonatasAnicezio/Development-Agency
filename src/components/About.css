@@ -22,3 +22,9 @@
   color: #65DAF9;
   margin-right: 15px;
 }
+
+@media(max-width: 768px) {
+  #about-area img {
+    margin-top: 100px;
+  }
+}

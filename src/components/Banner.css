@@ -46,3 +46,27 @@
   background-color: transparent;
   border-color: #65DAF9;
 }
+
+@media(max-width: 768px) {
+  .container {
+    padding: 20px 0;
+  }
+  
+  .carousel-inner, .carousel-item {
+    height: auto;
+  }
+
+  .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+}
