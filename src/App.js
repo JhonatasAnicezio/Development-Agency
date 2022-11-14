@@ -9,6 +9,7 @@ import Time from './components/Time';
 import Company from './components/Company';
 import Portfolio from './components/Portfolio';
 import News from './components/News';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </ParallaxProvider>
       <Portfolio />
       <News />
+      <Footer />
     </div>
   );
 }
