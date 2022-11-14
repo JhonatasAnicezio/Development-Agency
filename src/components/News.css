@@ -96,3 +96,39 @@
     font-size: 15px;
   }
 }
+
+@media(max-width: 550px) {
+  #news-area {
+    padding-top: 0;
+  }
+
+  #news-area .container {
+    padding-top: 0;
+  }
+
+  #news-area .main-title {
+    font-size: 21px;
+  }
+
+  #news-area p {
+    font-size: 11px;
+  }
+
+  #email-input {
+    width: 100%;
+  }
+
+  #news-area #news-btn {
+    padding: 0 10px;
+    margin-left: -92px;
+  }
+
+  /* call to action */
+
+  #call-area p, #call-area #call-btn {
+    font-size: 10px;
+    letter-spacing: 0;
+    margin: 0;
+    width: 40%;
+  }
+}

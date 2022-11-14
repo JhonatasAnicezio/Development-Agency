@@ -23,3 +23,14 @@
     font-size: 20px;
   }
 }
+
+@media(max-width: 550px) {
+  .container .circle-box {
+    width: 40%;
+  }
+
+  #data-area .container {
+    padding: 0;
+    margin-left: 10%;
+  }
+}

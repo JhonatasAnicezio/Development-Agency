@@ -11,3 +11,10 @@
     font-size: 12px;
   }
 }
+
+@media(max-width: 550px) {
+  #team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
