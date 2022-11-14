@@ -14,6 +14,8 @@ import proj4 from './img/proj4.jpg';
 import proj5 from './img/proj5.jpg';
 import proj6 from './img/proj6.jpg';
 
+import { faEnvelope, faMapMarkedAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
+
 import {
   faMobileAlt, faShoppingCart, faPaintBrush,
   faGlobe, faHandsHelping, faServer,
@@ -211,4 +213,38 @@ export const listImg = [
     topic: 'seo',
     img: proj6,
   },
+];
+
+export const listContact = [
+  {
+    icon: faPhone,
+    contact: [
+      {
+        title: 'Ligue para: ',
+        cont: '(45)9999-9999',
+      },
+      {
+        title: 'Horários: ',
+        cont: '8:00 - 19:00',
+      }
+    ]
+  },
+  {
+    icon: faEnvelope,
+    contact: [
+      {
+        title: 'Envie um e-mail: ',
+        cont: 'contato@hdcagency.com.br',
+      }
+    ]
+  },
+  {
+    icon: faMapMarkedAlt,
+    contact: [
+      {
+        title: 'Venha tomar um café: ',
+        cont: 'Rua Lorem Ipsum - 1314',
+      }
+    ]
+  }
 ];
