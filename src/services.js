@@ -47,32 +47,32 @@ export const listBanner = [
 
 export const linksHeader = [
   {
-    href: '',
+    href: '#home-area',
     id: 'home-menu',
     name: 'Home',
   },
   {
-    href: '',
+    href: '#about-area',
     id: 'about-menu',
     name: 'A agência',
   },
   {
-    href: '',
+    href: '#services-area',
     id: 'services-menu',
     name: 'Serviços',
   },
   {
-    href: '',
+    href: '#team-area',
     id: 'team-menu',
     name: 'Time',
   },
   {
-    href: '',
+    href: '#portfolio-area',
     id: 'portifolio-menu',
     name: 'Projetos',
   },
   {
-    href: '',
+    href: '#contact-area',
     id: 'contact-menu',
     name: 'Contato',
   },
