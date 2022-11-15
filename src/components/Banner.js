@@ -5,7 +5,7 @@ import './Banner.css';
 
 function Banner() {
   return (
-    <Carousel>
+    <Carousel id='home-area'>
       { listBanner.map((banner, index) =>
         <Carousel.Item key={ index }>
           <img

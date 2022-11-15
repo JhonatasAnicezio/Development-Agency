@@ -17,7 +17,7 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               { linksHeader.map((link, index) =>
-                <a href='#' key={ index } className='nav-item nav-link' id={ link.id }>{ link.name }</a>
+                <a href={ link.href } key={ index } className='nav-item nav-link' id={ link.id }>{ link.name }</a>
               ) }
             </Nav>
           </Navbar.Collapse>
